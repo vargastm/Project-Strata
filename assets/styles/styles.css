@@ -39,6 +39,7 @@ h2 {
 
 h3 {
     font-size: 26px;
+    margin-top: 2em;
 }
 
 h4 {
@@ -47,6 +48,7 @@ h4 {
 
 h5 {
     font-size: 18px;
+    margin-top: 1.5em;
 }
 
 h6 {
@@ -269,6 +271,10 @@ textarea {
     border-radius: 10px;
 }
 
+.recent-works-card-title {
+    margin-bottom: 0;
+}
+
 .gallery-img img {
     width: 100%;
 }
@@ -327,4 +333,24 @@ textarea {
 .right-image {
     float: right;
     margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 35%;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+footer a {
+    color: #787878;
+    border: none;
+}
+
+footer a:hover {
+    color: #49BF9D;
+    transition: all .2s;
 }
