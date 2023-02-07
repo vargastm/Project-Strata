@@ -301,3 +301,17 @@ textarea {
 .col-3-3:nth-child(3n - 1) {
     margin: 0 2%;
 }
+
+.left-right-section img {
+    width: 100px;
+}
+
+.left-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.right-image {
+    float: right;
+    margin-left: 10px;
+}
