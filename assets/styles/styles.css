@@ -132,19 +132,32 @@ textarea {
 
 .button-default {
     background-color: #49BF9D;
-    border: 2px solid #49BF9D;
+    border: 3px solid #49BF9D;
     color: #FFFFFF;
     padding: .75em 1.5em;
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
     width: auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.button-default:hover {
+    background-color: #5DDEB9;
+    border-color: transparent;
 }
 
 .button-default-stroke {
     background-color: #FFFFFF;
     border-color: #EFEFEF;
     color: inherit;
+}
+
+.button-default-stroke:hover {
+    color: #49BF9D;
+    border-color: #49BF9D;
+    background-color: #FFFFFF;
 }
 
 .button-default-small {
