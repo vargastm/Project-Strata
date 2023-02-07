@@ -19,6 +19,10 @@ p {
     margin: 0 0 2em;
 }
 
+img {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #787878;
     font-weight: normal;
@@ -105,12 +109,16 @@ input, label, textarea {
     box-sizing: border-box;
 }
 
-input, textarea {
+input, textarea, select {
     background: #CCCCCC;
     padding: 15px;
     border-radius: 5px;
     border: 3px solid transparent;
     margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
 }
 
 input:focus, textarea:focus {
@@ -151,6 +159,10 @@ textarea {
     display: block;
     text-align: center;
 
+}
+
+.image-link {
+    border: 0 ;
 }
 
 .table {
@@ -208,6 +220,7 @@ textarea {
 .main-header img {
     height: 100px;
     border-radius: 100%;
+    width: auto;
 }
 
 .main-header h1 {
@@ -239,6 +252,19 @@ textarea {
     box-sizing: border-box;
 }
 
+.recent-works-card img {
+    border-radius: 10px;
+}
+
+.gallery-img img {
+    width: 100%;
+}
+
+.gallery-img img, .gallery-thumb img {
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
 .row {
     overflow: auto;
 }
@@ -265,4 +291,13 @@ textarea {
     width: 32%;
     margin-left: 3%;
     float: left;
+}
+
+.col-3-3 {
+    width: 32%;
+    float: left;
+}
+
+.col-3-3:nth-child(3n - 1) {
+    margin: 0 2%;
 }
